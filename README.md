@@ -1,0 +1,4 @@
+- npm create @vite-pwa/pwa@latest
+- Create DB
+- Implement Lucia Auth Google
+- Add Tailwind CSS for styling
