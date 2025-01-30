@@ -9,7 +9,7 @@ export const actions = {
 
 		if (!title || !body) return
 
-		await fetch('/api/push/send', {
+		await event.fetch('/api/push/send', {
 			method: 'POST',
 			body: JSON.stringify(
 				{
