@@ -33,11 +33,11 @@
 		</h2>
 	</nav>
 	<div class="flex flex-col">
-		{#if data.users.length === 1}
+		{#if data.users.length === 0}
 			{#each data as user}
-				<div class="flex flex-col border-b border-b-zinc-400 p-2">
-					<span>{user.id}</span>
-				</div>
+				<a href="notify/{user.id}" class="flex flex-col border-b border-b-zinc-400 p-2">
+					<span>{user.name}</span>
+				</a>
 			{/each}
 		{:else}
 			<div class="flex flex-col border-b border-b-zinc-400 p-2">
