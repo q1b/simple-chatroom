@@ -82,7 +82,6 @@
 			<span>Name</span>
 			<span>{user().name}</span>
 		</div>
-
 		<!-- <form class="flex flex-col border-b border-b-zinc-400">
 			<label for="name">Name</label>
 			<input id="name" name="name" value={user().name} />
@@ -96,5 +95,10 @@
 				{subscribed ? 'Notifications Enabled' : 'Enable Notifications'}
 			</button>
 		{/if}
+		<div class="mt-4">
+		</div>
+		<form method="post" action="?/logout">
+			<button class="px-4 cursor-pointer py-2 bg-rose-600 text-white shadow inset-shadow-rose-500">Sign Out</button>
+		</form>
 	</div>
 </div>

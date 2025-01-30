@@ -11,7 +11,7 @@
 	<div class="absolute top-0 left-0">
 		<h2
 			aria-label="settings"
-			class="border-r border-b border-r-(--pattern-fg) border-b-(--pattern-fg) flex items-center justify-center p-2.5 hover:dark:bg-white/7 dark:bg-white/5 focus:outline-none"
+			class="border-r border-b border-r-(--pattern-fg) border-b-(--pattern-fg) flex items-center justify-center p-2 text-sm hover:dark:bg-white/7 dark:bg-white/5 focus:outline-none"
 		>
 			Simple Chat Room
 		</h2>
