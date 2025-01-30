@@ -6,8 +6,7 @@ export const load: PageServerLoad = async (event) => {
 	if (!event.locals.user) {
 		return redirect(302, '/');
 	}
-
-	const users = db.query.userTable.findMany()
+	const users = await db.query.userTable.findMany()
 	return {
 		users
 	}

@@ -31,17 +31,17 @@
 		</h2>
 	</nav>
 	<div class="flex flex-col">
-		<form method="post" use:enhance class="flex flex-col gap-y-4">
-			<div class="flex flex-col gap-y-2">
-				<label for="title">Title</label>
-				<input id="title" name="title" placeholder="Enter Title" />
+		<form method="post" use:enhance class="flex p-2 flex-col gap-y-4">
+			<div class="flex flex-col">
+				<label class="" for="title">Title</label>
+				<input id="title" name="title" class="p-2 focus:outline-none bg-white/10" placeholder="Enter Title" />
 			</div>
-			<div class="flex flex-col gap-y-2">
-				<label for="body">Body</label>
-				<textarea id="body" name="body" placeholder="Enter Body"></textarea>
+			<div class="flex flex-col">
+				<label class="" for="body">Body</label>
+				<textarea id="body" name="body" class="p-2 focus:outline-none bg-white/10" placeholder="Enter Body"></textarea>
 			</div>
 			<div>
-				<button type="submit">Send</button>
+				<button class="px-2 py-1 bg-blue-600 cursor-pointer" type="submit">Send</button>
 			</div>
 		</form>
 	</div>

@@ -33,8 +33,8 @@
 		</h2>
 	</nav>
 	<div class="flex flex-col">
-		{#if data.users.length === 0}
-			{#each data as user}
+		{#if data.users.length !== 0}
+			{#each data.users as user}
 				<a href="notify/{user.id}" class="flex flex-col border-b border-b-zinc-400 p-2">
 					<span>{user.name}</span>
 				</a>
