@@ -1,5 +1,5 @@
 <script lang="ts">
-	import {enhance} from '@sveltejs/kit';
+	import { enhance } from '$app/forms';
 </script>
 
 <div
